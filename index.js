@@ -6,7 +6,7 @@ const app = express();
 const mongoURI = 'mongodb+srv://azizdada:gWFZMbXyPHNbmxzM@cluster0.fa9ax0e.mongodb.net/';
 
 app.use(cors({
-    origin: 'https://atm-card-frontend-5bkg.vercel.app'
+    origin: true
 }));
 
 async function connectToMongoDB() {
